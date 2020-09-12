@@ -113,7 +113,7 @@ n = 10
 
 # generate the markov chain
 x = []
-s = input("Enter your number between 1~4: ")
+s = input("Enter your number between 1~4, divided by ",", :)
 x = s.split(',')
 ##############################
 for i in range(len(x)):
